@@ -91,3 +91,36 @@
             color:#000;
             padding-bottom:70px;
         }
+        .container.services{
+            background-color:#efefef;
+        }
+    .container.services > .service-row{
+        width:700px;
+        margin-left: calc(50% - 350px);
+        display:inline-block;
+        padding-top:40px;
+        padding-bottom:60px;
+        
+    }
+        .service-row > .service-coll{
+            width:33.3%;
+            display:inline-block;
+            /* background-color:red; */
+            float:left;
+            text-align:center;
+        }
+        .service-coll > img{
+            display:inline-block;
+            padding-bottom:20px;
+        }
+        .service-coll > .header-text{
+            padding-bottom:30px;
+            text-transform: capitalize;
+            font-weight:bold;
+            font-size:16px;
+            color:#000;
+        }
+        .service-coll > .big-text{
+            color:#000;
+            font-size:16px;
+        }
