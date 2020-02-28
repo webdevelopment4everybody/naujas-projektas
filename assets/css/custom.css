@@ -68,3 +68,26 @@
             color:#000;
             margin-bottom:100px;
         }
+    .container.broccoli > .collumn{
+        width:700px;
+        margin-left:calc(50% - 350px);
+        text-align:center;
+        display:inline-block;
+    }
+        .collumn > .broccoli-logo{
+            padding-top:50px;
+            padding-bottom:25px;
+            display:inline-block;
+        }
+        .collumn >  h2{
+            text-transform: capitalize;
+            font-size:30px;
+            color:#000;
+            padding-bottom:30px;
+
+        }
+        .collumn > p {
+            font-size:16px;
+            color:#000;
+            padding-bottom:70px;
+        }
