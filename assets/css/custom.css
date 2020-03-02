@@ -143,10 +143,12 @@
         font-size: 16px;
         color:#000;
         padding-top:30px;
+        margin:0 40px 0 40px;
 
     }
     .articles-row{
         padding-top:70px;
+        display:inline-block;
 
     }
 
@@ -164,8 +166,8 @@
             color:#fff;
             text-transform: uppercase;
             font-weight:lighter;
-            padding-top:50px;
-            padding-bottom:30px;
+            padding-top:20px;
+            padding-bottom:20px;
 
         }
         .articles-row > .separate > p{
@@ -180,8 +182,8 @@
 
         }   
             .picandtext > img{
-                padding-top:60px;
-                padding-bottom:40px;
+                padding-top:30px;
+                padding-bottom:10px;
                 width:30%;
                 float:left;
                 display: inline-block;
@@ -191,8 +193,35 @@
                 display:inline-block;
                 float:right;
                 color:#fff;
-                padding-top:70px;
+                padding-top:40px;
                 text-transform: uppercase;
-
+                font-size:12px;
             } 
+    .container.clients{
+        background-color: #efefef;   
+    }
+        .container.clients > .clients-row{
+            width:600px;
+            margin:0 calc(50% - 300px);
+        }
+            .clients-row > h1{
+                text-align:center;
+                font-size:30px;
+                padding-top:40px;
+                padding-bottom:40px;
+            }
+            .clients-row >a > img{
+                display:inline-block;
+                height:100px;
+                margin-bottom:70px;
+                width: calc(100% / 6);
+                float:left;
+                object-fit: contain;
+                padding:0 20px;
+                cursor: pointer;
+            }
+            .clients-row >a > img:hover{
+                box-shadow: 3px 1px 2px #635e5e;
+            }
+
         
