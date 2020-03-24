@@ -287,4 +287,38 @@
             padding-top: 50px;
             padding-bottom:50px;
             }
+    .container.quote{
+        background-color: #212121;
+    }
+    .quote{
+        display:inline-block;
+        text-align:center;
+        width:100%;
+    }
+    .quote-row{
+        color:#fff;
+        width: 700px;
+        margin-left: calc(50% - 350px);
+
+    }
+        .quote-row > .fas{
+            padding-top:50px;
+            padding-bottom:20px;
+            font-size:14px;
+        }
+        .quote-row > .quote-text{
+            font-size:16px;
+            font-weight:lighter;
+            line-height:26px;
+            padding-bottom:30px;
+        }
+        .quote-row > .quote-author{
+            font-style: italic;
+            font-size:16px;
+            padding-bottom:50px;
+
+        }
+
+
+
         
