@@ -364,6 +364,65 @@
                 text-transform: capitalize;
                 padding-top:10px;
             }
+    .container.facts-numbers{
+        background-image: url(../img/boy.png);
+        background-size: cover;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        
 
+    }
+        
+    .container.facts-numbers > .facts-numbers-row{
+        width:600px;
+        margin-left:calc(50% - 300px);
+        display:inline-block; 
+        text-align:center;
+        margin-bottom: 70px;
+
+
+    }
+    .container.facts-numbers > .facts-numbers-row > h1{
+        /* display: inline-block; */
+        padding-top:50px;
+        color:#fff;
+        text-transform: capitalize;
+        font-size:26px;
+        line-height:30px;
+        font-weight:bolder;
+        padding-bottom:40px;
+    }
+        .block-number-fact{
+        display: inline-block;
+        width:50%;
+        float:left;
+        color:#fff;
+        background-color: grey;
+        font-size:18px;
+        line-height:20px;
+        /* padding-bottom:50px; */
+    }
+            .block-number-fact > .number{
+                font-weight:bolder;
+                display:inline-block;
+                margin-top:40px;
+                margin-bottom:20px;
+               
+
+            }
+            .block-number-fact .fact{
+                /* padding-bottom:50px; */
+            }
+
+            .block-number-fact:nth-of-type(2) {
+                
+            padding-bottom:0px;
+            background-color: red;;
+            
+            }
+       
+        
+    
 
         
