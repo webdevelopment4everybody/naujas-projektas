@@ -426,7 +426,28 @@
             display:inline-block;
             width:70px;
         }
-       
+
+    /* GALLERY TEXT */
+    .container.gallery-text > .row-gallery-text{
+        width:900px;
+        margin: 0 calc(50% - 450px);
+        text-align:center;
+
+    }
+    .row-gallery-text > .two-in-one{
+        widows: 100%;
+        display:inline-block;
+    }
+        .row-gallery-text > .two-in-one > img{
+            width: 50%;
+            display: inline-block;
+            float: left;
+        }
+        .row-gallery-text  .gallery-block{
+            width: 50%;
+            display: inline-block;
+            float: right;
+        }
         
     
 
