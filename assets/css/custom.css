@@ -364,6 +364,71 @@
                 text-transform: capitalize;
                 padding-top:10px;
             }
-
+    .container.facts-numbers{
+       
+        
+        display: inline-block;
+        background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),url(../img/boy.png);
+        padding-top:0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom ;
+    }
+        
+    .container.facts-numbers > .facts-numbers-row{
+        width:600px;
+        margin-left:calc(50% - 300px);
+        display:inline-block; 
+        text-align:center;
+        margin-bottom: 60px;
+        opacity: 0.8;
+    }
+    .container.facts-numbers > .facts-numbers-row > h1{
+        /* display: inline-block; */
+        padding-top:40px;
+        color:#fff;
+        text-transform: capitalize;
+        font-size:26px;
+        line-height:30px;
+        font-weight:bolder;
+        padding-bottom:50px;
+    }
+        .block-number-fact{
+        display: inline-block;
+        width:50%;
+        float:left;
+        color:#fff;
+        background-color: grey;
+        font-size:18px;
+        line-height:20px;
+        padding-bottom:60px;
+       
+    }
+            .block-number-fact > .number{
+                font-weight:bolder;
+                display:inline-block;
+                margin-top:50px;
+                margin-bottom:20px;
+            }
+            .block-number-fact .line{
+                border: 2px solid #4d4c4b;
+                margin-left:115px;
+                width:70px;
+                margin-bottom:15px;
+            }
+            .block-number-fact:nth-child(2) {   
+                padding-bottom:0px;
+            }
+            .block-number-fact:nth-child(3) {
+               padding-bottom:0px;
+                 }
+        .facts-numbers-row .orange-thing{
+            border:3px solid #e64a19;
+            display:inline-block;
+            width:70px;
+        }
+       
+        
+    
 
         
