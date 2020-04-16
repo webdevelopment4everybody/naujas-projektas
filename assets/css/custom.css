@@ -472,16 +472,18 @@
                 font-size:16px;
 
             }
-            .two-in-one:nth-child(2){
-                order:-1;
-               
-            }
-            .two-in-one :nth-of-type(2){
-                order:-1;
-               
-            }
-        
-        
-    
+         
+        /* .row-gallery-text .two-in-one:nth-child(2){
+            order:1;
+            background-color: rgb(255, 0, 221);
+        } */
+        /* .two-in-one > img:nth-child(2){
+            order:1;
+            background-color: yellow;
+            float:left;
 
-        
+        } */
+       */
+        .two-in-one > img:nth-child(2) {
+            /* float: right; */
+        }
